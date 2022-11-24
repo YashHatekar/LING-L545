@@ -1,0 +1,62 @@
+Multichar_Symbols
+
+%<noun%>
+%<singular%>
+%<plural%>
+
+@U.plural_form_s.PL@
+@U.plural_form_es.PL@
+@U.plural_form_ies.PL@
+@U.plural_form_ves.PL@
+@U.plural_form_a.PL@
+
+LEXICON Root
+
+! NOUN - NOUN FORM ( Either Singular or Plural )
+
+Day%<noun%>			:Day 	   SFORMS ;
+Hill%<noun%>			:Hill  SFORMS ;
+Chair%<noun%>			:Chair     SFORMS ;
+Table%<noun%>			:Table     SFORMS ;
+Pencil%<noun%>			:Pencil    SFORMS ;
+Book%<noun%>			:Book      SFORMS ;
+Dog%<noun%>			:Dog       SFORMS ;
+Dogg%<noun%>			:Dogg     IESFORMS ;
+Fax%<noun%>			:Fax      ESFORMS ;
+Box%<noun%>			:Box      ESFORMS ;
+Toe%<noun%>			:To ESFORMS ;
+Blitz%<noun%>			:Blitz     ESFORMS ;
+Lady%<noun%>			:Lad      IESFORMS ;
+Army%<noun%>			:Arm      IESFORMS ;
+Penny%<noun%>			:Penn     IESFORMS ;
+Thief%<noun%>			:Thie     VESFORMS ;
+Loaf%<noun%>			:Loa      VESFORMS ;
+Half%<noun%>			:Hal      VESFORMS ;
+Automaton%<noun%>		:Automat  AFORMS ;
+Polyhedron%<noun%>		:Polyhedr AFORMS ;
+
+
+LEXICON SFORMS
+
+%<singular%>: #;
+@U.plural_form_s.PL@%<plural%>:@U.plural_form_s.PL@s # ; 
+
+LEXICON ESFORMS
+
+%<singular%>: #;
+@U.plural_form_es.PL@%<plural%>:@U.plural_form_es.PL@es # ; 
+
+LEXICON IESFORMS
+
+%<singular%>:y #;
+@U.plural_form_ies.PL@%<plural%>:@U.plural_form_ies.PL@ies # ; 
+
+LEXICON VESFORMS
+
+%<singular%>:f #;
+@U.plural_form_ies.PL@%<plural%>:@U.plural_form_ies.PL@ves # ; 
+
+LEXICON AFORMS
+
+%<singular%>:on #;
+@U.plural_form_a.PL@%<plural%>:@U.plural_form_a.PL@a # ; 
