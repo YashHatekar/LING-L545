@@ -1,5 +1,5 @@
 # Max Match implementation
-'''
+```
 import sys
 def maxmatch(sent, dictionary):
     start = ''
@@ -23,19 +23,19 @@ while line != '':
     print(maxmatch(line.replace(' ',''), dictionary_list))
     line = sys.stdin.readline()
 dictionary_file.close()
-'''
+```
 # How to use MaxMatch
 
 Save the above code as maxmatch.py
 
-'''
+```
 $ echo 'sentence to tokenise.' | python3 maxmatch.py dictionary-file
-'''
+```
 or
 
-'''
+```
 $ cat file_name | python3 maxmatch.py dictionary-file
-'''
+```
 # Performance
 
 MaxMatch works well, using the dictionary file it is able to accurately segmenting most of the words. It should make mistakes only when either the words are unknown because the words are missiging in the dictionary file or if there exists a combination of words to create a longer word.
