@@ -1,8 +1,8 @@
 # Project
 
-##`Restoration of The General/Universal History of the Things of New Spain by Bernardino de Sahagún`
+## Restoration of The General/Universal History of the Things of New Spain by Bernardino de Sahagún
 
-##Abstract -
+## Abstract -
 The General/Universal History of the Things of New Spain comprises twelve books by the
 Franciscan Fray Bernardino de Sahagún (*1499 - †1590). After being lost for three
 centuries, a rediscovered manuscript of this ethnographic research study was named
@@ -27,7 +27,7 @@ de Sequeira a third copy (usually identified as the "Florentine Codex"), which S
 took to Spain in 1580. The Florentine Codex is the best-preserved manuscript of
 Sahagún's piece of work, kept in the Laurentian Library in Florence since 1783.
 
-##List of references/bibliography -
+## List of references/bibliography -
 Bernardino de Sahagún. General History of the Things of New Spain by Fray Bernardino
 de Sahagún: The Florentine Codex. Book I: The Gods. [Place of Publication Not
 Identified: Publisher Not Identified, 1577] Pdf. Retrieved from the Library of Congress.
@@ -36,13 +36,13 @@ Book 1 The Gods. Translated by Charles E. Dibble and Arthur J. O. Anderson. 2. S
 City: The School of American Research and the University of Utah, 2012.
 https://zenodo.org/record/7213020#.Y0wJl0zP1PY
 
-##What are you planning to do -
+## What are you planning to do -
 Perform NLP techniques to restore the ancient texts.
 NLP techniques which would be performed are correcting the sentence format.
 Correction of words present in the text.
 Correction of other grammatical errors/fallacies.
 
-##What data will you use -
+## What data will you use -
 https://zenodo.org/record/7213020#.Y0wJl0zP1PY
 The link mentioned above contains .txt files of the twelve books named under Florentine
 Codex. All text comes in two columns; the right column contains the Nahuatl text, and
