@@ -50,6 +50,7 @@ the Spanish text is on the left.
 
 ## How to use - 
 The code requires NLTK and Py-Elotl to run.
+Download the preprocessed books from the repository.
 
 NLTK can be installed using :
 ``` pip install nltk ```
