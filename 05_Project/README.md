@@ -47,3 +47,12 @@ https://zenodo.org/record/7213020#.Y0wJl0zP1PY
 The link mentioned above contains .txt files of the twelve books named under Florentine
 Codex. All text comes in two columns; the right column contains the Nahuatl text, and
 the Spanish text is on the left.
+
+## How to use - 
+The code requires NLTK and Py-Elotl to run.
+
+NLTK can be installed using :
+''' pip install nltk '''
+
+Py-Elotl can be installed using :
+''' pip install elotl '''
