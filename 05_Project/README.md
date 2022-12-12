@@ -52,7 +52,10 @@ the Spanish text is on the left.
 The code requires NLTK and Py-Elotl to run.
 
 NLTK can be installed using :
-''' pip install nltk '''
+``` pip install nltk ```
 
 Py-Elotl can be installed using :
-''' pip install elotl '''
+``` pip install elotl ```
+
+How to run the code :
+``` python3 prj.py book_name > book.tsv ```
